@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'poppins' , sans-serif;
+}
+
+.navig_bar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+p{
+    color: grey;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.colu{
+    flex-basis: 50%;
+    min-width: 300px;
+    
+    
+    
+    
+}
+.colu img{
+    max-width: 100%;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    
+}
+.colu h1{
+   font-size: 50px;
+   line-height: 60px;
+   margin: 25px 0;
+   
+   
+}
+.btn{
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: black;
+}
+.button{
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.button:hover{
+    background: black;
+}
+
+.addToCartButton{
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 30px;
+    border: none;
+    transition: background 0.5s;
+}
+.addToCartButton:hover{
+    background: black;
+}
+/*--close button for the panel--*/
+.cloose{
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    
+}
+.cartItems{
+    max-height: 300px;
+}
+
+.cart-items {
+    max-height: 300px; /* Adjust this value as needed */
+    overflow-y: auto;
+    border: 1px solid #ccc; /* Add a border for visualization */
+    padding: 10px; /* Optional: Add padding for better appearance */
+}
+
+
+.removeButton {
+    background-color: red; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header{
+    background: radial-gradient(white);
+}
+.header .row{
+    margin-top: 70px;
+}
+.small_container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;  
+}
+.col img{
+    width: 100%;
+}
+
+
+/*----Subscripyion page------*/
+.subscription-options {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.subscription-tier {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.subscription-tier h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subscription-tier p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.subscription-tier button {
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.subscription-tier button:hover {
+    background-color: black;
+}
+
+
+/*----Contact us page------*/
+.contact-us {
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+  }
+  
+  .contact-us h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+  }
+
+/*--------About us---------*/
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+    
+  .about h1 {
+    text-align: center;
+    
+  }
+  .about h2{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+/*-------Cart-----------*/
+.sidebar{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    /* Your existing styles */
+    right: -400px; /* Initially hidden */
+    transition: right 0.3s ease-in-out; /* Transition effect */
+    background-color: white;
+    box-shadow: -4px 0 6px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sidebar.open {
+    right: 0; /* Slide in when open */
+}
+
+.sidebar-close{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    
+}
+.cart-tems{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.cart-tems{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: var(--text-color);
+    border: 1px solod var(--decent-color);
+}
+.cart-item-price{
+    color: var(--primary-color);
+}
+.sidebar--footer{
+  position: absolute;
+  bottom: 10px; 
+  width: 88%; 
+}
+
+.total--amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px black;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+.cart-total{
+    font-size: 16px;
+    color: grey;
+    font-weight: 500S;
+}
+.checkout-btn{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background: green;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 20px;
+    border: none; 
+}
