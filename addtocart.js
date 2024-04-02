@@ -60,3 +60,33 @@ cartButton.addEventListener('click', function() {
 sidebarCloseButton.addEventListener('click', function() {
     sidebar.classList.remove('open');
 });
+
+
+
+
+
+document.getElementById('mealForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+  
+    // Get form values
+    const age = document.getElementById('age').value;
+    const gender = document.getElementById('gender').value;
+    const height = document.getElementById('height').value;
+    const weight = document.getElementById('weight').value;
+    const goals = document.getElementById('goals').value;
+    const dietaryPreferences = document.getElementById('dietaryPreferences').value;
+    const numberOfPeople = document.getElementById('numberOfPeople').value;
+    const mealsPerWeek = document.getElementById('mealsPerWeek').value;
+  
+    // Do something with the form data, like send it to a server
+    console.log({
+      age,
+      gender,
+      height,
+      weight,
+      goals,
+      dietaryPreferences,
+      numberOfPeople,
+      mealsPerWeek
+    });
+  });
