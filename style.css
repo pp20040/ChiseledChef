@@ -3,7 +3,6 @@
     padding: 0;
     
 }
-
 body{
     font-family: 'poppins' , sans-serif;
 }
@@ -46,11 +45,7 @@ p{
 }
 .colu{
     flex-basis: 50%;
-    min-width: 300px;
-    
-    
-    
-    
+    min-width: 300px;    
 }
 .colu img{
     max-width: 100%;
@@ -103,7 +98,9 @@ p{
 .addToCartButton:hover{
     background: black;
 }
+
 /*--close button for the panel--*/
+
 .cloose{
     color: white;
     border: none;
@@ -135,7 +132,6 @@ p{
     border: 1px solid #ccc; /* Add a border for visualization */
     padding: 10px; /* Optional: Add padding for better appearance */
 }
-
 
 .removeButton {
     background-color: red; 
@@ -172,8 +168,8 @@ p{
     width: 100%;
 }
 
+/*----Subscription page------*/
 
-/*----Subscripyion page------*/
 .subscription-options {
     margin-top: 50px;
     display: flex;
@@ -214,8 +210,8 @@ p{
     background-color: black;
 }
 
-
 /*----Contact us page------*/
+
 .contact-us {
     background-color: #f2f2f2;
     padding: 40px;
@@ -291,6 +287,7 @@ header {
   }
 
 /*-------Cart-----------*/
+
 .sidebar{
     width: 300px;
     height: 100%;
@@ -367,9 +364,7 @@ header {
     border: none; 
 }
 
-
-
-
+/* ------- putinfo -------- */
 
 .acontainer {
     background-color: #fff;
