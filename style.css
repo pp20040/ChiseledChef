@@ -395,15 +395,3 @@ header {
     border-radius: 5px;
   }
   
-  button {
-    background-color: green;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: green;
-  }
